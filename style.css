@@ -242,11 +242,7 @@ i:hover {
   transition: var(--trans);
   transform: rotate(2deg);
 }
-.profile-img:hover {
-  opacity: 1;
-}
-.profile-img:hover ~ .profile-img-bg {
-}
+
 /* -----------------------------profile-section 2 ------------------------*/
 .profile-section {
   background-color: var(--primary);
