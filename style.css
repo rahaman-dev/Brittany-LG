@@ -255,14 +255,12 @@ i:hover {
 .profile-title {
   position: relative;
   left: 50px;
-  bottom: 190px;
 }
 .profile-heading {
   font-size: 30px;
   margin: 15px 0;
   position: relative;
   left: 50px;
-  bottom: 190px;
 }
 .profile-left-para {
   width: 500px;
@@ -270,25 +268,16 @@ i:hover {
   background-color: #112240;
   z-index: 125;
   border-radius: 5px;
-  margin: 15px 0px;
+  margin: 25px 0px;
   padding: 10px 10px 10px 5px;
   position: relative;
   left: 50px;
-  bottom: 190px;
   z-index: 99999999;
-
-  /*  
-  position: relative;
-  right: 50px;
-  top: 7.5px;
-  bottom: 7.5;
-    */
 }
 .profile-vs-code span {
   padding: 0 15px 0 0;
   position: relative;
   left: 50px;
-  bottom: 190px;
 }
 .profile-vs-code > p {
   margin-top: 10px;
@@ -297,7 +286,6 @@ i:hover {
   font-size: 25px;
   padding-right: 10px;
   position: relative;
-  bottom: 190px;
   left: 50px;
 }
 .profile-vs-code > p > i:hover {
@@ -316,13 +304,16 @@ i:hover {
 .profile-img:hover {
   opacity: 1;
 }
+.bulid-section-2 {
+  position: relative;
+}
 .profile-img-bg {
   background-color: #1d4965;
   width: 600px;
   height: 375px;
   border-radius: 5px;
-  position: relative;
-  bottom: 380px;
+  position: absolute;
+  bottom: 8px;
   right: 50px;
   opacity: 0.5;
   transition: 0.5s;
