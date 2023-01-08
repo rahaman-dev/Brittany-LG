@@ -233,12 +233,19 @@ i:hover {
 .build-img:hover {
   opacity: 1;
   transition: var(--trans);
+  transform: rotate(7deg);
 }
 .build-img:hover ~ .img-section2 {
   position: relative;
   top: -230px;
   left: 15px;
   transition: var(--trans);
+  transform: rotate(2deg);
+}
+.profile-img:hover {
+  opacity: 1;
+}
+.profile-img:hover ~ .profile-img-bg {
 }
 /* -----------------------------profile-section 2 ------------------------*/
 .profile-section {
@@ -301,9 +308,6 @@ i:hover {
   transition: 0.5s;
   z-index: 9999;
 }
-.profile-img:hover {
-  opacity: 1;
-}
 .bulid-section-2 {
   position: relative;
 }
@@ -319,10 +323,14 @@ i:hover {
   transition: 0.5s;
   z-index: 0;
 }
-.bulid-section-2 {
-  position: relative;
+.profile-img:hover {
+  opacity: 1;
+  transform: rotate(7deg);
 }
-/* ------------------------------footer */
+.profile-img:hover ~ .profile-img-bg {
+  transform: rotate(2deg);
+}
+/* ------------------------------footer-----------------------*/
 footer {
   background-color: var(--primary);
   text-align: center;
@@ -340,7 +348,6 @@ footer {
 .footer-para {
   color: var(--third);
   width: 500px;
-  /* height: 120px; */
   padding: 20px;
   margin: 20px auto;
   font-size: 22px;
