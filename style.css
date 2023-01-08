@@ -166,7 +166,7 @@ span {
   transition: var(--trans);
 }
 
-/* ------------------------build-section */
+/* ------------------------build-section 1 ------------------------*/
 .bulid-section {
   display: flex;
   align-items: center;
@@ -240,7 +240,7 @@ i:hover {
   left: 15px;
   transition: var(--trans);
 }
-/* -----------------------------profile-section */
+/* -----------------------------profile-section 2 ------------------------*/
 .profile-section {
   background-color: var(--primary);
   display: flex;
@@ -269,7 +269,7 @@ i:hover {
   z-index: 125;
   border-radius: 5px;
   margin: 25px 0px;
-  padding: 10px 10px 10px 5px;
+  padding: 20px;
   position: relative;
   left: 50px;
   z-index: 99999999;
