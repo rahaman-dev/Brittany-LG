@@ -240,6 +240,8 @@ i:hover {
   top: -230px;
   left: 15px;
   transition: var(--trans);
+}
+.build-img:hover ~ .build-img-section {
   transform: rotate(2deg);
 }
 
@@ -321,10 +323,10 @@ i:hover {
 }
 .profile-img:hover {
   opacity: 1;
-  transform: rotate(7deg);
+  transform: rotate(-7deg);
 }
 .profile-img:hover ~ .profile-img-bg {
-  transform: rotate(2deg);
+  transform: rotate(-2deg);
 }
 /* ------------------------------footer-----------------------*/
 footer {
